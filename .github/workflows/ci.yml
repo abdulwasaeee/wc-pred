@@ -12,12 +12,14 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install -e .
           pip install pytest ruff
       - name: Download data
         run: |
           mkdir -p data
-          curl -sL https://raw.githubusercontent.com/martj42/international_results/master/results.csv -o data/results.csv
+          curl -fSL https://raw.githubusercontent.com/martj42/international_results/master/results.csv -o data/results.csv
+          wc -l data/results.csv
       - name: Train model
         run: python -m wcpredictor train
       - name: Lint
