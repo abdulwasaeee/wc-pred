@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+tests/test_model.py
+wcpredictor/__init__.py
+wcpredictor/__main__.py
+wcpredictor/features.py
+wcpredictor/predict.py
+wcpredictor/train.py
+wcpredictor.egg-info/PKG-INFO
+wcpredictor.egg-info/SOURCES.txt
+wcpredictor.egg-info/dependency_links.txt
+wcpredictor.egg-info/top_level.txt

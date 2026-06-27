@@ -1,0 +1,20 @@
+[project]
+name = "wcpredictor"
+version = "0.1.0"
+description = "World Cup match-outcome predictor"
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["wcpredictor*"]
+
+
+[tool.ruff]
+line-length = 100
+exclude = ["notebooks"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
