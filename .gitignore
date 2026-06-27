@@ -5,3 +5,6 @@ data/
 .ipynb_checkpoints/
 .DS_Store
 mlruns/
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
