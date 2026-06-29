@@ -1,3 +1,6 @@
+![CI](https://github.com/abdulwasaeee/wc-pred/actions/workflows/ci.yml/badge.svg)
+
+
 # World Cup 2026 Predictor
 
 A machine learning system that predicts international football match outcomes and simulates the 2026 FIFA World Cup to estimate each team's chance of winning the title.
