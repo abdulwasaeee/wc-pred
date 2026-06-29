@@ -9,6 +9,8 @@ dependencies = [
     "scikit-learn",
     "joblib",
     "typer",
+    "fastapi",
+    "uvicorn",
 ]
 
 [build-system]
